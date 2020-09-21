@@ -49,11 +49,10 @@ body {
 a {
   text-decoration: none;
 }
-img, svg {
+img {
   display: block;
   width: 100%;
   height: auto;
-
 }
 /* хедер*/
 
@@ -402,6 +401,7 @@ border-radius: 0px 0px 4px 4px;
 .team-pecture {
   padding: 0px 0px;
   margin-top: 0px;
+  
 }
 
 .team-name {
@@ -777,6 +777,7 @@ fill: var(--white)
   margin-bottom: 20px;
 }
 
+
 .portfolio:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
@@ -814,9 +815,10 @@ border-radius: 0px 0px 4px 4px;
     font-size: 18px;
     line-height: 1.5;
     color: var(--white);
-   
-   
-}
+   }
+   .portfolio .team-pecture {
+     width: 370px;
+   }
 
 .portfolio-link .work-desc {
   text-align: left;
