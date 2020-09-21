@@ -51,8 +51,9 @@ a {
 }
 img, svg {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
+
 }
 /* хедер*/
 
@@ -377,9 +378,6 @@ color: var(--white);
   line-height: 1.18;
 }
 
-.team-box {
-  margin-right: 30;
-}
 
 .team-box:not(:nth-child(4n)) {
   margin-right: 30px;
@@ -805,6 +803,7 @@ border-radius: 0px 0px 4px 4px;
     left: 0;
     width:100%;
    height: 100%;
+   padding: 63px 24px;
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
     transition: transform 250ms var(--function-animation);
@@ -815,7 +814,7 @@ border-radius: 0px 0px 4px 4px;
     font-size: 18px;
     line-height: 1.5;
     color: var(--white);
-    padding: 63px 24px;
+   
    
 }
 
