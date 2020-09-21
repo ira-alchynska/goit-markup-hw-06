@@ -1016,7 +1016,7 @@ outline-color: var(--active);
     background-repeat: no-repeat;
     background-position: center;
     height: 16px;
-    width: 15px;
+    width: 16px;
     left: 43px;
   }
 
@@ -1024,9 +1024,10 @@ outline-color: var(--active);
     background-image: url(../img/icons/checkbox.svg);
     fill: var(--white);
     background-color: var(--active);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-clip: border-box;
     transition: background-color 250ms var(--function-animation),
     fill 250ms var(--function-animation);
   }
