@@ -51,7 +51,7 @@ a {
 }
 img {
   display: block;
-  width: 100%;
+ width: 100%;
   height: auto;
 }
 /* хедер*/
@@ -816,6 +816,7 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.5;
     color: var(--white);
    }
+
    .portfolio .team-pecture {
      width: 370px;
    }
